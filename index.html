@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="icon" type="image/png" sizes="64x64" href="static/img/goat.png">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="static/js/main.js"></script>
+        <title>Resume</title>
+    </head>
+    <body>
+        <div class="flex flex-col lg:flex-row">
+            <!--Left-->
+            <div class="w-full lg:max-w-md lg:h-screen p-3 bg-amber-50/50 border">
+
+                <!--Profile-->
+                <div>
+                    <div class="flex justify-center mt-10">
+                        <img class= "w-1/3 rounded-2xl border-2 border-gray-600" src="" id="ProfileIMG" alt="ProfileIMG">
+                    </div>
+                    <h1 class="font-semibold text-center text-lg mt-5" id="profileName"></h1>
+                    <p class="text-neutral-800 text-center" id="profileTitle"></p>
+                    <p class="text-neutral-600 text-sm py-2" id="profileDescription"></p>
+    
+                    <div class="mt-2 text-sm">
+                        <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            <p class="ml-1" id="profileLocation"></p>
+                        </div>
+                        <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+                            <p class="ml-1" id="profileEmail"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Education-->
+                <div class="mt-8">
+                    <h1 class="text-2xl tracking-[0.3rem] my-3 flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                            <path d="M11.7 2.805a.75.75 0 01.6 0A60.65 60.65 0 0122.83 8.72a.75.75 0 01-.231 1.337 49.949 49.949 0 00-9.902 3.912l-.003.002-.34.18a.75.75 0 01-.707 0A50.009 50.009 0 007.5 12.174v-.224c0-.131.067-.248.172-.311a54.614 54.614 0 014.653-2.52.75.75 0 00-.65-1.352 56.129 56.129 0 00-4.78 2.589 1.858 1.858 0 00-.859 1.228 49.803 49.803 0 00-4.634-1.527.75.75 0 01-.231-1.337A60.653 60.653 0 0111.7 2.805z" />
+                            <path d="M13.06 15.473a48.45 48.45 0 017.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 01-.46.71 47.878 47.878 0 00-8.105 4.342.75.75 0 01-.832 0 47.877 47.877 0 00-8.104-4.342.75.75 0 01-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 016 13.18v1.27a1.5 1.5 0 00-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 00.551-1.608 1.5 1.5 0 00.14-2.67v-.645a48.549 48.549 0 013.44 1.668 2.25 2.25 0 002.12 0z" />
+                            <path d="M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.743 6.743 0 01-1.286 1.794.75.75 0 11-1.06-1.06z" />
+                        </svg>
+                        <span>Educación</span>
+                    </h1>
+
+                    <div id="Education">
+
+                    </div>
+                </div>
+
+                <!--Social-->
+                <div class="mt-8">
+                    <h1 class="text-2xl tracking-[0.3rem] my-3">Social</h1>
+                    <div class="grid grid-cols-2">
+                        <div class="flex items-center">
+                            <img src="static/img/LI-In-Bug.png" class='h-4 mr-1' alt="">
+                            <a id="socialLinkedin" href="" class="text-neutral-800 hover:text-indigo-500"></a>
+                        </div>
+                        <div class="flex items-center">
+                            <img src="static/img/github-mark.png" class='h-4 mr-1' alt="">
+                            <a id="socialGitHub" href="" class="text-neutral-800 hover:text-indigo-500"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Right-->
+            <div class="lg:h-screen lg:overflow-y-auto p-3 bg-amber-50/30 space-y-10" id="sections">
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
+

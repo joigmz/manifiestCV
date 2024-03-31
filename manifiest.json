@@ -1,0 +1,95 @@
+{
+    "Profile":{
+        "Name":"José Izam M",
+        "Title":"Data Engineer II",
+        "Description":"Tengo pasión sobre el mundo de las tecnologías, no me limito a aprender solo aquellas relacionadas al Data Science, también exploró áreas como el desarrollo Web tanto Backend como Frontend, por otra parte, tengo capacidad para resolver y llevar proyectos de forma autónoma o en equipo.",
+        "Location":"Santiago, Chile",
+        "Email":"Jose.izam99@gmail.com",
+        "ProfileIMG":"static/img/1622608198300.jpeg"
+    },
+    "Social": {
+        "Linkedin":{
+            "URL":"https://www.linkedin.com/in/jose-izam/",
+            "Title":"José Izam"
+        },
+        "GitHub":{
+            "URL":"https://github.com/joigmz",
+            "Title":"@joigmz"
+        }
+    },
+    "Education": [
+        {
+            "Title":"Ingeniería Civil Industrial, Mención TI",
+            "Institution":"Universidad Adofo Ibañez (2017-2022)"
+        }
+    ],
+    "Section":[
+        {
+            "Title" : "Experiencia Laboral Profesional",
+            "Subtitle" : null,
+            "block" : [
+                {
+                    "Title":"Data Engineer II - Justo",
+                    "Duration":"2023/08 - Actualidad",
+                    "Description":"Automatización de creación de campañas de Marketing con modelos IA generativa usando OpenAI y Python. Scraping. Supervisión prácticas área BI. API interna programada en Django para diversos servicios solicitados por colaboradores."
+                },
+                {
+                    "Title":"Data Engineer - Justo",
+                    "Duration":"2022/03 - 2023/07",
+                    "Description":"En Justo ingrese con la meta de co-crear un área de datos solicida y confiable para esto me contrataron como Data Engineer en el área de BI. Mi primero proyecto fue automatizar la ingesta de datos de la BBDD interna de BI (Postgres), para esto implemente Airflow en un servidor de Digital Ocean."
+                }
+            ]
+        },
+        {
+            "Title" : "Prácticas Profesionales Universitarias",
+            "Subtitle" : null,
+            "block" : [
+                {
+                    "Title":"BI Analyst - Justo",
+                    "Duration":"2022/01 - 2022/03",
+                    "Description":"Implementación de Apache Airflow para ETL en Python. Creación y mantenimiento GitHub de Business Intelligence. Automatización de procesos con Python."
+                },
+                {
+                    "Title":"Práctica Estrategia Comercial - Credicorp Capital",
+                    "Duration":"2021/08 - 2021/10",
+                    "Description":"Consultas SQL nivel intermedio (SQLserver). Reportes con Power-Bi y  Python. Automatización de procesos con Python."
+                }
+            ]
+        },
+        {
+            "Title" : "Experiencia Laboral Académica",
+            "Subtitle" : null,
+            "block" : [
+                {
+                    "Title":"Ayudante de Cátedra",
+                    "Duration":"2 Semestres",
+                    "Description":"Ayudante instructor y corrector Programación (Python)."
+                },
+                {
+                    "Title":"Electromovilidad UAI",
+                    "Duration":"2 Semestres",
+                    "Description":"Modelamiento de carreras con data histórica obtenida por telemetría y data meteorológica."
+                }
+            ]
+        },
+
+        {
+            "Title": "Proyectos",
+            "Subtitle" : null,
+            "block": [
+                {
+                    "Title":"Co-Founder & CTO - Hase",
+                    "Duration":"Noviembre 2022 - Actualidad",
+                    "Description": "Software que permite a profesionales independientes administrar su propia consulta por internet.",
+                    "URL": "https://gethase.com/"
+                },
+                {
+                    "Title":"RoomieHood",
+                    "Duration":"Marzo 2022 - Diciembre 2022",
+                    "Description": "Software que permitía hacer match con otra persona para ser compañeros de cuarto.",
+                    "URL": null
+                }
+            ]
+        }
+    ]
+}
